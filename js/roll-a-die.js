@@ -68,7 +68,7 @@ function appendDieContainers(dieId, element, angle) {
 function removeDieFromDOM(dieId) {
   const removeElement = document.getElementById(dieId);
   if (removeElement) {
-    removeElement.remove();
+    // removeElement.remove();
   }
 }
 
